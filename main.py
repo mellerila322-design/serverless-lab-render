@@ -46,7 +46,7 @@ init_db()
 
 @app.route('/')
 def hello():
-    return "Hello, Serverless with DB! 🚀\n", 200, {'Content-Type': 'text/plain'}
+    return "Hello, Serverless! 🚀\n", 200, {'Content-Type': 'text/plain'}
 
 @app.route('/echo', methods=['POST'])
 def echo():
